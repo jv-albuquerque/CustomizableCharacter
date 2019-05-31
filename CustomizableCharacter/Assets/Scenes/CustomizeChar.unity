@@ -502,7 +502,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 221575019}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1914408414}
+        m_MethodName: NextObject
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: mounth
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, Unity.ugui, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &221575019
@@ -2988,7 +2999,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 974887080}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1914408414}
+        m_MethodName: BackObject
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: weapon
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, Unity.ugui, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &974887080
@@ -3800,7 +3822,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1214863559}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1914408414}
+        m_MethodName: BackObject
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: mounth
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, Unity.ugui, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1214863559
@@ -5350,6 +5383,27 @@ MonoBehaviour:
   skin: {fileID: 693934745}
   body: {fileID: 1487400303}
   hair: {fileID: 349703115}
+  weapon: {fileID: 603041547}
+  mounth: {fileID: 1306181357}
+  mounthType:
+  - {fileID: 703918140911965262, guid: 981a99b753842d74e93604ac4f69acd5, type: 3}
+  - {fileID: -3635853930376749794, guid: 981a99b753842d74e93604ac4f69acd5, type: 3}
+  - {fileID: 7440314345295110066, guid: 981a99b753842d74e93604ac4f69acd5, type: 3}
+  - {fileID: -7783233568847598832, guid: 981a99b753842d74e93604ac4f69acd5, type: 3}
+  - {fileID: 5222416484965148590, guid: 981a99b753842d74e93604ac4f69acd5, type: 3}
+  - {fileID: 1695917021293471623, guid: 981a99b753842d74e93604ac4f69acd5, type: 3}
+  - {fileID: 6740580643970349995, guid: 981a99b753842d74e93604ac4f69acd5, type: 3}
+  hairType:
+  - {fileID: 1938888190848388384, guid: 8838ac7db8faa114f8f7a030a8af5f30, type: 3}
+  - {fileID: 6481147323100216820, guid: 8838ac7db8faa114f8f7a030a8af5f30, type: 3}
+  - {fileID: 3381348780950752448, guid: 8838ac7db8faa114f8f7a030a8af5f30, type: 3}
+  - {fileID: 645762552176022835, guid: 8838ac7db8faa114f8f7a030a8af5f30, type: 3}
+  - {fileID: -4718943135580820964, guid: 8838ac7db8faa114f8f7a030a8af5f30, type: 3}
+  - {fileID: -1370526988111919261, guid: 8838ac7db8faa114f8f7a030a8af5f30, type: 3}
+  weaponType:
+  - {fileID: -3613559608917729766, guid: 4b561a0bbcef4a340a6905b4a5e74e8e, type: 3}
+  - {fileID: -8689711435103150886, guid: 4b561a0bbcef4a340a6905b4a5e74e8e, type: 3}
+  - {fileID: 3857257824357002030, guid: 4b561a0bbcef4a340a6905b4a5e74e8e, type: 3}
 --- !u!1 &1592492633
 GameObject:
   m_ObjectHideFlags: 0
@@ -5852,7 +5906,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1636964051}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1914408414}
+        m_MethodName: NextObject
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: weapon
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, Unity.ugui, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1636964051
@@ -6274,7 +6339,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1798796162}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1914408414}
+        m_MethodName: BackObject
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: hair
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, Unity.ugui, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1798796162
@@ -6436,7 +6512,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1822636212}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1914408414}
+        m_MethodName: NextObject
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: hair
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, Unity.ugui, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1822636212
@@ -6814,6 +6901,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1914408413}
   - component: {fileID: 1914408412}
+  - component: {fileID: 1914408414}
   m_Layer: 0
   m_Name: CustomizeController
   m_TagString: Untagged
@@ -6880,6 +6968,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1914408414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914408411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bc6d97c7fad3e945821f53f45b4d3d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  L_MounthArrow: {fileID: 1214863556}
+  R_MounthArrow: {fileID: 221575016}
+  mouthNumber: {fileID: 1360441319}
+  L_HairArrow: {fileID: 1798796159}
+  R_HairArrow: {fileID: 1822636209}
+  hairNumber: {fileID: 1612829084}
+  L_WeaponArrow: {fileID: 974887077}
+  R_WeaponArrow: {fileID: 1636964048}
+  weaponNumber: {fileID: 1855883401}
 --- !u!1 &1971872580
 GameObject:
   m_ObjectHideFlags: 0

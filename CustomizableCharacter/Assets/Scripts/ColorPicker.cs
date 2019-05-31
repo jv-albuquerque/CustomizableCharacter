@@ -8,6 +8,9 @@ public class ColorPicker : MonoBehaviour
     [SerializeField] private GameObject bodyPanel = null;
     [SerializeField] private GameObject hairPanel = null;
 
+
+    // TODO: create a way to recive the object that has the color
+    // easier way to add new objects
     [Header("Colors")]
     [SerializeField] private Image SelectedSkinColor = null;
     [SerializeField] private Color[] skinColors = null;
@@ -79,6 +82,8 @@ public class ColorPicker : MonoBehaviour
         }
     }
 
+
+    // Set the skin color choose in the character and in the color pick
     public void SetSkinColor(int index)
     {
         skinColor = index;
@@ -87,6 +92,7 @@ public class ColorPicker : MonoBehaviour
         character.SetSkinColor(skinColors[skinColor]);
     }
 
+    // Set the body color choose in the character and in the color pick
     public void SetBodyColor(int index)
     {
         bodyColor = index;
@@ -95,6 +101,7 @@ public class ColorPicker : MonoBehaviour
         character.SetBodyColor(bodyColors[bodyColor]);
     }
 
+    // Set the hair color choose in the character and in the color pick
     public void SetHairColor(int index)
     {
         hairColor = index;
